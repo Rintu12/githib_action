@@ -1,0 +1,122 @@
+/* .layout{
+    z-index: 0;
+} */
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.layout {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+    /* Ensure it takes up full height */
+    /* position: relative; */
+
+    /* display: flex; */
+    flex-direction: column;
+    position: relative;
+    /* max-width: 1400px;  */
+    margin: 0 auto;    /* Center the layout */
+    width: 100%;       /* Make it responsive on smaller screens */
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* Establish a positioning context */
+}
+
+.header {
+    /*z-index: 1000;*/
+    /* position: absolute; */
+    flex: 0 0 auto;
+     width: 100vw;
+     /* height: 100%; */
+    /* Ensures header is above content */
+}
+
+.footer {
+    width: 100vw;
+   /* z-index: 1000;*/
+    /* Ensure header and footer are on top */
+    position: static;
+    /* flex: 0 0 auto; */
+    /* Ensures footer is above content */
+}
+
+.content {
+    /* display: flex; */
+position: static;
+    /* height: 100vh; */
+    flex: 1;
+    /* max-width: 1400px !important; */
+    left: 0px;
+    right: 0px;
+    /* position: sta; */
+    /* background-color: aqua; */
+    /* position: static; */
+    /* padding: 30px; */
+    /* width: auto; */
+    /* Position relative for stacking */
+    /* z-index: 1000; */
+}
+
+
+.footer{
+
+
+}
+
+
+
+@media (min-width: 1281px) {
+  
+   
+    
+  }
+  
+ 
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+  
+    
+  }
+  
+
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+   
+    
+  }
+  
+
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+  
+    
+  }
+  
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+  
+    
+  }
+  
+ 
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+   
+    .content{
+        margin-bottom: 200px;
+    }
+    
+    
+  }

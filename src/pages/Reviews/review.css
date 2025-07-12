@@ -1,0 +1,91 @@
+.review-wraper {
+    height: auto;
+    background-color: #ffffff;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.review-header {
+    margin: 10px 40px 20px 40px;
+    background-color: #E2E8F0;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.review-header h6 {
+    font-size: 28px;
+    font-family: 'Outfit';
+    font-weight: 600;
+    color: #1E293B;
+    padding-left: 10px;
+}
+
+.submit-review-container {
+    margin: 10px 60px 20px 60px;
+}
+
+.submit-review-container select {
+    width: 100%;
+    height: 52px;
+    border-radius: 8px;
+    border: 1px solid #94A3B8;
+    padding: 0px 20px 0px 20px;
+}
+
+.heading-customer-review {
+    font-size: 20px;
+    font-family: 'Outfit';
+    font-weight: 500;
+    color: #0F172A;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.customer-review-text {
+    height: 200px;
+    border-radius: 8px;
+    border: 1px solid #94A3B8;
+    padding: 10px;
+    outline: none ;
+}
+
+.review-bar-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bar-riviewrating {
+    height: 14px;
+    background-color: #E2E8F0;
+    border-radius: 2px;
+    width: 80%;
+    /* padding-left: 5px; */
+    margin-left: 10px;
+}
+
+.reviw-show-container {
+    margin: 10px 60px 20px 60px;
+
+}
+
+.progres-bar-container {
+    height: 14px;
+    background-color: #FFC700;
+    border-radius: 2px;
+    /* width: 60%; */
+    /* padding-left: 5px; */
+}
+.overall-col{
+    height: 94px;
+}
+.overalltext{
+    font-size: 20px;
+    font-family: 'Outfit';
+    font-weight: 500;
+    color: #0F172A;
+}

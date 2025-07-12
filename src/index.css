@@ -1,0 +1,619 @@
+@import "rsuite/dist/rsuite.css";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+body {
+  flex: 1;
+  /* overflow: auto; */
+  overflow-x: hidden;
+  /* height: 100%; */
+  /* margin: 0 auto; */
+  /* max-width: 1400px; */
+  left: 0px;
+  right: 0px;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+  box-sizing: border-box;
+}
+
+ul .list-items-ul::marker {
+  font-size: 20px !important;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+input{
+  background-color: #ffffff !important;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.header-text {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Outfit';
+  color: #E2E8F0;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 30px;
+  /* margin-top: 100px; */
+}
+
+.header-text-sub {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Outfit';
+  color: #E2E8F0;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 30px;
+  /* margin-top: 100px; */
+}
+
+.header-title-wraper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 770px) and (max-width:1290px) {
+  .information-details {
+    left: -12px !important;
+  }
+
+  /* .row>*{
+    width: 0 !important;
+    } */
+  .home-heading-text {}
+
+  .review-details-contaainer {
+    padding: 10px 0px 10px 0px;
+
+  }
+
+  .review-box-container {
+    padding: 4px 10px 10px 4px !important;
+    margin: 0px;
+  }
+
+  .heading {
+    text-align: center !important;
+  }
+
+  /* .mobile-car-des {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+  } */
+  .addrsspicker-container {
+    display: block !important;
+  }
+
+  .fromdateselect-box {
+    width: 207px !important;
+    height: 132px !important;
+  }
+
+  .address-container {
+    height: 550px !important;
+    margin-top: 400px !important;
+  }
+
+  .addresssectwo {
+    display: block !important;
+  }
+
+  .getuetoffer-btn {
+    width: 145px !important;
+    height: 44px !important;
+    margin-top: 30px !important;
+  }
+
+  .section .heading {
+    font-size: 18px !important;
+  }
+
+  .col-back {
+    /* display:block!important; */
+    margin-bottom: 30px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-content: center;
+    /* background-color: #535bf2; */
+
+  }
+
+  .icon-text {
+    text-align: left !important;
+  }
+
+  .cars-section {
+    /* height:1000px!important; */
+  }
+
+  .gradient-div {
+    height: 1270px !important;
+  }
+
+  .ridenow {
+    font-size: 20px !important;
+    color: #FFFFFF;
+    font-weight: "700";
+    font-family: 'DM Sans';
+  }
+
+  .desc-ridenow {
+    font-size: 10px !important;
+    color: #FFFFFF;
+    font-weight: "400";
+    font-family: 'DM Sans';
+  }
+
+  .reviewimage {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+  }
+
+  .reviewimage img {
+    height: 50px;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .other-review-box {
+    padding: 10px 5px 10px 4px !important;
+    /* margin: 0 auto 30px auto !important;
+    margin-top: 70px !important */
+  }
+
+  /* .footer{
+    margin-top: 327px;
+  } */
+
+  .footer-wraper {
+    /* margin:1509px 0px 0px 60px; */
+  }
+
+  .endfooter {
+    height: 83px;
+  }
+
+  p+p {
+    margin-top: 0px !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .information-details {
+    left: -12px !important;
+  }
+
+  /* .row>*{
+    width: 0 !important;
+    } */
+  .home-heading-text {}
+
+  .dateboxcontainer {
+    width: 100% !important;
+    position: relative;
+  }
+
+  .review-details-contaainer {
+    padding: 10px 0px 10px 0px;
+
+  }
+
+  .review-box-container {
+    padding: 4px 10px 10px 4px !important;
+    margin: 0px;
+  }
+
+  .heading {
+    text-align: center !important;
+  }
+
+  /* .mobile-car-des {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+  } */
+  .addrsspicker-container {
+    display: block !important;
+  }
+
+  .address-container {
+    height: 550px !important;
+    margin-top: 400px !important;
+  }
+
+  .addresssectwo {
+    display: block !important;
+  }
+
+  .getuetoffer-btn {
+    width: 145px !important;
+    height: 44px !important;
+    margin-top: 30px !important;
+  }
+
+  .section .heading {
+    font-size: 18px !important;
+  }
+
+  .address-div-attach {
+    width: 100% !important;
+  }
+
+  .col-back {
+    /* display:block!important; */
+    margin-bottom: 30px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-content: center;
+    /* background-color: #535bf2; */
+
+  }
+
+  .icon-text {
+    text-align: left !important;
+  }
+
+  .cars-section {
+    /* height:1000px!important; */
+  }
+
+  .gradient-div {
+    height: 1200px !important;
+  }
+
+  .ridenow {
+    font-size: 20px !important;
+    color: #FFFFFF;
+    font-weight: "700";
+    font-family: 'DM Sans';
+  }
+
+  .desc-ridenow {
+    font-size: 10px !important;
+    color: #FFFFFF;
+    font-weight: "400";
+    font-family: 'DM Sans';
+  }
+
+  .reviewimage {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+  }
+
+  .reviewimage img {
+    height: 50px;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .other-review-box {
+    padding: 10px 5px 10px 4px !important;
+    /* margin: 0 auto 30px auto !important;
+    margin-top: 70px !important */
+  }
+
+  /* .footer{
+    margin-top: 327px;
+  } */
+
+  .footer-wraper {
+    /* margin:1509px 0px 0px 60px; */
+  }
+
+  .endfooter {
+    height: 83px;
+  }
+
+  p+p {
+    margin-top: 0px !important;
+  }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .typeofcar {
+    /* display: none !important; */
+  }
+
+  .home-heading-text {
+    top: 50px !important;
+
+  }
+
+  .home-heading-text p {
+    font-size: 20px !important;
+    margin: 0 auto;
+  }
+
+  .address-container {
+
+    /* height:727px!important; */
+
+  }
+
+  .addresssectwo {
+    display: block !important;
+  }
+
+  .getuetoffer-btn {
+    margin-top: 20px !important;
+    width: 130px !important;
+    height: 39px !important;
+    text-align: center;
+  }
+
+  .getuetoffer-btn p {
+    font-size: 16px;
+    padding-top: 8px;
+  }
+
+  .address-div-attach {
+    /* display: block !important; */
+  }
+
+  .fromdateselect-box {
+    /* width: 150px!important; */
+
+  }
+
+  .dateboxcontainer_ {
+    display: block !important;
+  }
+
+  .dropdown-items {
+    width: 0px;
+  }
+
+  .via-details-box {
+    width: 240px !important;
+  }
+
+  .addresssectwo div {
+    display: block;
+  }
+
+  .cars-section {
+    /* height: 800px; */
+  }
+
+  .review-details-contaainer {
+    margin-top: 70px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.heading-title_acc {
+  color: #35AD0A;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Outfit';
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 15px;
+}
+
+.table-heading {
+  color: #334155;
+  font-size: 30px;
+  font-weight: 6500;
+  font-family: 'Outfit';
+}
+
+.td-dec {
+  color: #334155;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Outfit';
+}
+
+.footer-privacy {
+  cursor: pointer;
+}
+
+.logo:hover {
+  cursor: pointer !important;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow: auto;
+  /* background-color: #535bf2; */
+}
+
+.operator-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.rs-sidenav-default .rs-sidenav-item {
+  background-color: #334155 !important;
+  color: #ffffff !important;
+  margin-top: 7px;
+}
+
+.rs-sidenav-default.rs-sidenav-collapse-in .rs-sidenav-item.rs-sidenav-item-active {
+  background-color: #35AD0A !important;
+  border-radius: 15px;
+  /* margin-top: 7px; */
+}
+
+.active_menu {
+  background-color: #35AD0A !important;
+}
+
+.rs-dropdown-item {
+  background-color: #334155 !important;
+  color: #ffffff !important;
+  margin-top: 7px;
+}

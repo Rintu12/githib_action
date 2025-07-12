@@ -1,0 +1,143 @@
+.review-wraper{
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #94A3B8;
+    
+}
+.profile-div p:nth-of-type(1){
+    font-size: 24px !important;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #0F172A !important;
+}
+.star-rating {
+    display: inline-flex;
+    cursor: pointer;
+    font-size: 50px; /* Adjust size as needed */
+  }
+  
+  .star {
+    color: #ccc; /* Gray color for empty stars */
+    transition: color 0.2s;
+  }
+  
+  .star.filled {
+    color: #ffcc00; /* Yellow color for filled stars */
+  }
+  .profile-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .pub-date-time{
+    font-size: 18px !important;
+    font-weight: 400;
+    font-family: 'Outfit';
+    color: #1E293B !important;
+  }
+  .review-details-text{
+    font-size: 22px !important;
+    font-weight: 400;
+    font-family: 'Outfit';
+    color: #0F172A !important;
+    padding: 10px 0px 10px 0px;
+  }
+  .helpfulltext{
+    font-size: 16px !important;
+    font-weight: 400;
+    font-family: 'Outfit';
+    color: #35AD0A !important;
+    padding-left: 10px;
+  }
+  .fa-thumbs-up{
+    /* font-size: 16px; */
+
+    color: #e4b418 !important;
+  }
+  .tow-fac-heading{
+    font-size: 16px;
+    font-family: 'Outfit';
+    color: #1E293B;
+    font-weight: 500;
+  }
+  .verify-phone{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  .verify-phone h6{
+    font-size: 24px;
+    font-family: 'Outfit';
+    color: #3AAE49;
+    font-weight: 600;
+  }
+  .two-factor-wraper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+  .twofactor-input label{
+    font-size: 20px;
+    font-family: 'Outfit';
+    color: #0F172A;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+.verify-phone{
+ width: 260px;
+ padding-top: 20px;
+ padding: 10px;
+ margin: 10px;
+}
+  .twofactor-input input{
+    border: 1px solid #94A3B8;
+    border-radius: 8px;
+    height: 50px;
+    width: 90%;
+    outline: none;
+    padding: 10px;
+  }
+  .twofactor-input button{
+    width: 90%;
+    border-radius: 8px;
+    /* background-color: #3AAE49; */
+    font-size: 16px;
+    font-family: 'Outfit';
+    color: #FFFFFF;
+    font-weight: 600;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
+  }
+  .send-otp-text{
+    font-size: 14px;
+    font-family: 'Outfit';
+    color: #334155;
+    font-weight: 400;
+  }
+  .notrecive-text{
+    font-size: 18px;
+    font-family: 'Outfit';
+    color: #334155;
+    font-weight: 400;
+    padding-top: 10px;
+  }
+  .resend-text{
+    font-size: 18px;
+    font-family: 'Outfit';
+    color: #3AAE49;
+    font-weight: 400;
+  }
+  .verify-otp-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #35AD0A;
+    font-size: 16px;
+    font-family: 'Outfit';
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 10px;
+  }

@@ -1,0 +1,97 @@
+
+.discount-sec h2{
+    color:#35AD0A;
+    font-family: "Outfit";
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.offer-txt-box{
+    background: #9EC5F0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.offer-txt-box p{
+    color:#28425A;
+    font-family: "Outfit";
+    font-size: 20px;
+    line-height: 30px;
+}
+.panel{
+    background: #E2e8F0;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.panel h3{
+    color:#35AD0A;
+    font-family: "Outfit";
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.premium-rides{
+    box-shadow: 0 0px 0px 0 rgba(172, 170, 170, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+    padding: 0px 0px 50px 0px;
+    margin-top: 50px;
+}
+.premium-rides .card{
+    width:100%;
+    margin: 0 auto;
+}
+.premium-rides .card .card-header{
+    background: none;
+    color:#0F172A;
+    font-family: "Outfit";
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 600;
+    border:none;
+    padding-top: 50px;
+}
+.premium-rides .card .card-title{
+    font-family: "Outfit";
+    font-size: 80px;
+    font-weight: 800;
+    color:#3AAE49;
+    padding-top: 30px;
+}
+.premium-rides .card .card-text{
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 50px;
+}
+
+.premium-rides .card a.btn{
+    width: 100%;
+    padding: 20px;
+    border:none;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: "Outfit";
+    background: #3AAE49;
+    font-size: 25px;
+    font-weight: 600;
+}
+.valid-image img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.valid-txt{
+    padding: 20px;
+    text-align: center;
+}
+.valid-txt p{
+    font-family: "Outfit";
+   color:#0F172A;
+    font-size: 36px;
+    font-weight: 600;
+}
+.valid-image{
+    padding-top: 50px;
+}

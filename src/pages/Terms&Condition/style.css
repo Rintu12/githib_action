@@ -1,0 +1,117 @@
+.wrapeer-cms {
+    height: auto;
+    /* margin: 60px; */
+    max-width: 1400px;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.list-items-ul a {
+    font-size:  22px;
+    font-weight: 500;
+    color: #1E293B;
+    font-family: 'Outfit';
+    /* padding-top: 20px; */
+    cursor: pointer;
+    /* padding-bottom: 15px !important; */
+}
+
+.terms-list-heding {
+    font-size:  34px;
+    font-weight: 600;
+    color: #0F172A;
+    font-family: 'Outfit';
+    padding-top: 15px;
+    /* cursor: pointer; */
+}
+
+.temrs-list-desc {
+    font-size:  20px;
+    font-weight: 400;
+    color: #1E293B;
+    font-family: 'Outfit';
+    padding-top: 15px;
+    /* cursor: pointer; */
+}
+
+.read-more-term-btn{
+    width: 330px;
+    height: 70px;
+    background-color: #35AD0A;
+    border-radius: 8px;
+    font-size:  20px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: 'Outfit';
+    margin-top: 30px;
+}
+
+
+
+
+
+@media (min-width: 1281px) {
+  
+    .wrapeer-cms{
+        padding: 30px;
+    
+    }
+    
+  }
+  
+  
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .wrapeer-cms{
+        padding: 30px;
+    
+    }
+    
+  }
+  
+ 
+  @media (min-width: 768px) and (max-width: 1024px) {
+   
+.wrapeer-cms{
+    padding: 30px;
+
+}
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+       
+.wrapeer-cms{
+    padding: 30px;
+
+}
+    
+  }
+  
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+       
+.wrapeer-cms{
+    padding: 30px;
+
+}
+    
+  }
+  
+  
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .wrapeer-cms{
+        padding: 30px;
+    
+    }
+    .read-more-term-btn{
+        width:179px;
+        height: auto;
+    }
+    
+  }

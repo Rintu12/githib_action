@@ -1,0 +1,301 @@
+.bookride-btn {
+    background-color: #3AAE49;
+    border-radius: 8px;
+    /* padding: 0px 20px 0px 20px; */
+    display: flex;
+    flex-direction: row;
+    /* height: 48px; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 13px 35px 13px 35px;
+
+}
+
+.bookride-btn i {
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    padding-right: 10px;
+
+}
+
+.bookride-btn p:nth-of-type(1) {
+    font-size: 15px;
+    font-family: 'Outfit';
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.ridehistory-btn {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #E2E8F0;
+    /* padding: 0px 20px 0px 20px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    padding: 13px 35px 13px 35px;
+    align-items: center;
+}
+
+.ridehistory-btn p:nth-of-type(1) {
+    font-size: 15px;
+    font-family: 'Outfit';
+    font-weight: 600;
+    color: #0F172A;
+}
+
+.ridehistory-btn i {
+    width: 20px;
+    height: 20px;
+    color: #0F172A;
+    padding-right: 10px;
+
+}
+
+.manage-payment-btn {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #E2E8F0;
+    /* padding: 0px 20px 0px 20px; */
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    padding: 13px 35px 13px 35px;
+    align-items: center;
+}
+
+.manage-payment-btn p:nth-of-type(1) {
+    font-size: 15px;
+    font-family: 'Outfit';
+    font-weight: 600;
+    color: #0F172A;
+}
+
+.manage-payment-btn i {
+    width: 20px;
+    height: 20px;
+    color: #0F172A;
+    padding-right: 10px;
+}
+
+.quick-link-user {
+    /* display: flex;
+    width: 100%;
+    justify-content: center; */
+    /* background-color: aquamarine; */
+}
+
+.main-wraper-dashboard {
+    /* padding-bottom: 200px;
+    width: 100%;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto; */
+}
+
+.recent-rides {
+    margin-top: 20px;
+}
+
+.recent-rides p:nth-of-type(1) {
+    font-size: 24px;
+    color: #0F172A;
+    font-weight: 500;
+    font-family: 'Outfit';
+}
+
+.recents-rides-div p:nth-of-type(1) {
+    font-size: 16px !important;
+    color: #3AAE49 !important;
+    font-weight: 500 !important;
+    font-family: 'Outfit';
+}
+
+.details p:nth-of-type(2) {
+    font-size: 14px !important;
+    color: #1E1E1E !important;
+    font-weight: 400 !important;
+    font-family: 'Outfit';
+    padding-top: 5px;
+}
+
+.details p:nth-of-type(1) {
+    font-size: 14px !important;
+    color: #1E1E1E !important;
+    font-weight: 400 !important;
+    font-family: 'Outfit';
+    padding-top: 5px;
+}
+
+.recent-view-btn {
+    width: 96px;
+    height: 37px;
+    border: 1px solid #94A3B8;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #6B7280;
+    font-weight: 600;
+    font-family: 'Outfit';
+    padding: 0px;
+    margin: 0px;
+}
+
+.recents-rides-div {
+    margin-top: 10px;
+}
+
+.text-decoration-underline {
+    color: #3AAE49;
+    font-weight: 600;
+    font-family: 'Outfit';
+    font-size: 15px;
+
+}
+
+.upcoming-rides {
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    width: 95%;
+    margin-top: 30px;
+    z-index: 1111;
+    position: relative;
+}
+
+.upcoming-rides-wraper {
+    width: 100%;
+    margin: 15px;
+}
+
+.upcoming-rides-wraper p:nth-of-type(1) {
+    color: #3AAE49;
+    font-weight: 600;
+    font-family: 'Outfit';
+    font-size: 16px;
+}
+
+.upcoming-rides-wraper h6 {
+    color: #0F172A;
+    font-weight: 500;
+    font-family: 'Outfit';
+    font-size: 22px;
+}
+
+.up-view-detail-btn {
+    width: 113px;
+    height: 36px;
+    background-color: #3AAE49;
+    border-radius: 8px;
+    color: #E8EBED;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    z-index: 9999;
+    position: relative;
+    /* bottom: 30px;/ */
+    float: right;
+    right: 40px;
+    top: -20px;
+    bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.acc-overview-text {
+    color: #0F172A;
+    font-weight: 500;
+    font-family: 'Outfit';
+    font-size: 22px;
+}
+
+.account-container {
+    padding-left: 10px;
+}
+
+.account-container p:nth-of-type(2) {
+    color: #3AAE49 !important;
+    font-weight: 600;
+    font-family: 'Outfit';
+    font-size: 16px !important;
+}
+
+.account-container p:nth-of-type(3) {
+    color: #3AAE49 !important;
+    font-weight: 600;
+    font-family: 'Outfit';
+    font-size: 16px !important;
+}
+
+.account-container span {
+    color: #1E1E1E !important;
+    font-weight: 600;
+    font-family: 'Outfit';
+    font-size: 16px !important;
+}
+
+.notification-div h6 {
+    color: #1E1E1E !important;
+    font-weight: 5000;
+    font-family: 'Outfit';
+    font-size: 30px !important;
+}
+
+.noti-btn-one {
+    width: 90%;
+    padding: 20px 40px 20px 40px;
+    background-color: #9CC9F8;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.noti-btn-two {
+    width: 90%;
+    padding: 20px 40px 20px 40px;
+    background-color: #F9CB80;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 460px) {
+    .quick-action-mobile {
+        width: 100%;
+    }
+
+    .sm-mobile-screen {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .upcoming-mobile-screen {
+        width: 100%;
+        margin-left: 10px !important;
+    }
+
+    .notification-mobile-screen {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .bookride-btn {
+        /* margin-top: 5px !important; */
+    }
+    .upcoming-rides-wraper h6 {
+        color: #0F172A;
+        font-weight: 500;
+        font-family: 'Outfit';
+        font-size: 19px;
+    }
+    .notification-div h6 {
+        color: #1E1E1E !important;
+        font-weight: 5000;
+        font-family: 'Outfit';
+        font-size: 25px !important;
+    }
+    
+}

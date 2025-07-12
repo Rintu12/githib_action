@@ -1,0 +1,155 @@
+.activity-table th, td{
+    font-family: "Outfit";
+}
+
+.activity-table th{
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.activity-table td{
+    font-size: 18px;
+    color:#0F172A;
+    font-weight: 500;
+}
+
+.activity-table td a.btn{
+    background: #35AD0A;
+    text-decoration: none;
+    border:none
+}
+.activity-table td a.btn:focus{
+    background: #35AD0A;
+    color:#fff;
+    border-radius:10px;
+}
+
+.activity-table table .thead-dark tr th {
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.activity-table h2 {
+    background: #E2E8F0;
+    border-radius: 10px;
+    padding: 0px 0px 20px 20px;
+    font-weight: 500;
+    font-size: 28px;
+    font-family: "Roboto";
+}
+
+.activity-table td a.btn .btn-primary {
+    width: 100%;
+    background:#35AD0A ;
+    padding: 30px;
+    color:#fff;
+}
+
+.btn-section{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.btn-section .btn.btn-primary, 
+.btn-section .btn.btn-secondary,
+.btn-section .btn.btn-success {
+    width:100%;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "Outfit";
+    background:#35AD0A ;
+    border: none;
+}
+
+.btn-section .btn.btn-secondary
+{
+    background:#1E293B ;
+    color:#fff;
+}
+
+.btn-section .btn.btn-success
+{
+    background:#E2E8F0 ;
+    color:#0F172A;
+}
+.fleet-manager{
+   padding: 20px;
+    box-shadow: 0 0px 0px 0 rgba(172, 170, 170, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+   margin-top: 50px;
+}
+
+
+.fleet-manager h1{
+    font-family: "Outfit";
+    font-size: 40px;
+    font-weight: 600;
+    color:#35AD0A;
+    
+}
+
+
+.riders-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.riders-section .upcoming_riders{
+    border:1 px solid #ddd;
+}
+
+.riders-section .upcoming_riders h3{
+    background:#E2E8F0;
+    color:#0F172A;
+    font-family: "Outfit";
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.riders-section .card{
+    width:100%;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding: 0px;
+    height: auto;
+    box-shadow: 0 0px 0px 0 rgba(172, 170, 170, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+}
+.riders-section .card .card-title{
+    padding: 10px;
+    background:#E2E8F0;
+    color:#0F172A;
+    font-family: "Roboto";
+    border-radius:10px 10px 0px 0px;
+}
+.riders-section .card .card-body{
+    display: flex;
+    padding: 10px 30px 20px 30px;
+}
+
+.riders-section .card .card-body p.card-text{
+    width:70%;
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 500;
+    color: #28425A;
+}
+.riders-section .card .card-body a.btn{
+    width:30%;
+    background: none;
+    border:2px solid #35AD0A;
+    height: 40px;
+    color:#35AD0A;
+    text-decoration: none;
+    font-weight: 800!important;
+}
+.riders-section .card .card-body a.btn .btn-primary span{
+    font-weight: 800!important;
+}
+
+
+
+
+
+

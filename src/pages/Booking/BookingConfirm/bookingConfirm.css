@@ -1,0 +1,462 @@
+.gradient-booking-confirm {
+
+    height: auto;
+    width: 100vw;
+    position: static;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.confirm-booing-div{
+    max-width: 1400px !important;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    /* left: 0px;
+    right: 0px; */
+}
+.booking-address {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+    margin: 0px 60px 0px 60px;
+    border-radius: 8px;
+}
+
+.title-confirm {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #35AD0A;
+
+}
+
+.addres-con-wrapper {
+    margin: 30px;
+}
+
+.address-confirm-comntaine {
+    width: 70%;
+    /* background-color: beige; */
+}
+
+.row-address-con {
+    padding-top: 25px;
+}
+
+.row-address-con label {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #0F172A;
+}
+
+.row-address-con p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Outfit';
+    color: #3E576F;
+}
+
+.qrcode-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.information-passsenger {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+    margin: 0px 60px 0px 60px;
+    border-radius: 8px;
+}
+
+.infor-wraper {
+    width: 60%;
+    margin: 30px;
+}
+
+.passe-info-row p {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #0F172A;
+}
+
+.passe-info-row span {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Outfit';
+    color: #3E576F;
+}
+
+.modify-div {
+    background-color: #E8EBED;
+
+    height: auto;
+}
+
+.modify-div-wraper {
+    width: 100%;
+    margin: 30px;
+    padding-bottom: 20px;
+}
+
+.mody-request-btn {
+    background-color: #35AD0A;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 500;
+ width: 300px !important;
+    font-family: 'Outfit';
+    color: #E8EBED;
+    border-radius: 8px;
+}
+
+.download-tickket {
+    padding: 10px;
+    color: #35AD0A;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Outfit';
+    border: 1px solid #35AD0A;
+    margin-left: 20px;
+}
+
+.btn-group-confirm {
+    margin-top: 30px;
+    display: flex;
+
+}
+
+.modify-div-wraper p {
+    color: #334155;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Outfit';
+    margin-top: 10px;
+}
+
+.modyfy-booing-request {
+    /* background-color: #E8EBED; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+    margin: 0px 60px 0px 60px;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.modify-request-wrapper-form {
+    margin: 30px auto 30px auto;
+    width: 100%;
+}
+
+.modify-request-wrapper-form p {
+    font-size: 40px;
+    font-weight: 600;
+    color: #35AD0A;
+    font-family: "Outfit";
+}
+
+.form-modufy-input input {
+    height: 52px;
+    width: 100%;
+    border: 1px solid #94A3B8;
+    border-radius: 8px;
+    padding: 20px;
+    outline: none;
+    /* padding: 20px; */
+}
+.form-modufy-input input:focus {
+    height: 52px;
+    width: 90%;
+    border: 1px solid #94A3B8;
+    border-radius: 8px;
+    padding: 20px;
+    /* padding: 20px; */
+}
+.form-modufy-input {
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+
+.destination input {
+    height: 52px;
+    width: 100%;
+    border: 1px solid #94A3B8;
+    border-radius: 8px;
+}
+
+.form-modufy-input textarea {
+    height: 140px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    outline: none;
+}
+
+.row-input-modify {
+    margin-top: 20px;
+}
+
+.form-modufy-input label {
+    font-size: 20px;
+    color: #0F172A;
+    font-weight: 600;
+    font-family: 'Outfit';
+}
+
+.submit-modify-btn button {
+    background-color: #3AAE49;
+    color: #FFFFFF !important;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+}
+.submit-modify-btn{
+  padding-bottom: 30px;
+}
+
+.row-address-con label{
+    padding-bottom: 30px;
+}
+.passe-info-row p{
+    padding-bottom: 20px;
+}
+.passe-info-row span{
+    padding-left:20px ;
+}
+
+
+
+
+
+@media (min-width: 1281px) {
+  
+    .addres-con-wrapper{
+        padding: 20px;
+    }
+    .modify-div{
+        padding-top: 20px;
+    }
+    .modyfy-booing-request{
+        padding-top: 30px;
+    }
+    
+  }
+  
+  
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .modify-div-wraper {
+        width: 87%;
+        margin: 30px;
+        padding-bottom: 20px;
+        line-height: 1.8;
+        padding-top: 20px;
+    }
+    
+  }
+  
+   @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .modify-div-wraper {
+        width: 87%;
+        margin: 30px;
+        padding-bottom: 20px;
+        line-height: 1.8;
+        padding-top: 20px;
+    }
+    .grcode-box-image img{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+
+    }
+    
+  }
+  
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+   
+    
+  }
+  
+  
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .information-passsenger {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        height: auto;
+        margin: 0px 0px 0px 55px;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .booking-address{
+        margin: 0px 5px 0px 5px;
+        padding: 10px;
+    }
+
+    .grcode-box-image img{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+
+    }
+    .information-passsenger{
+        margin: 0px 5px 0px 5px;
+    }
+    .modyfy-booing-request{
+        margin: 0px 5px 0px 5px;
+    }
+    .form-modufy-input label{
+        font-size: 13px;
+    }
+    .modify-request-wrapper-form{
+        margin: 0 auto;
+        padding: 2px;
+    }
+    .submit-modify-btn button{
+        margin: 0 auto;
+    }
+    .form-modufy-input textarea{
+        margin-bottom: 20px;
+    }
+    .modify-div{
+        padding: 5px;
+    }
+    .mody-request-btn{
+        font-size: 14px!important;
+        height: auto;
+        width: 205px!important;
+        height: 65px;
+    }
+    .download-tickket{
+        font-size: 14px !important;
+        height: auto;
+        width: 205px !important;
+        margin-left: 0;
+        height: 65px;
+        margin-top: 20px;
+    }
+    .btn-group-confirm{
+        display:block !important;
+        width:100% !important;
+    }
+    .grcode-box-image img{
+        width:50%;
+        margin-left: 85px;
+    }
+    .qr-code-image img{
+        width: 72%;
+        margin-left: 45px;
+    }
+    .row-address-con label{
+        font-size: 16px;
+    }
+    .row-address-con p{
+        font-size: 10px;
+    }
+    .modify-div-wraper p{
+        width: 80%;
+        font-size: 14px;
+    }
+    .title-confirm{
+        font-size: 20px;
+    }
+
+
+
+    
+  }
+  
+  
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .booking-address{
+        margin: 0px 5px 0px 5px;
+        padding: 10px;
+    }
+
+    .grcode-box-image img{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+
+    }
+    .information-passsenger{
+        margin: 0px 5px 0px 5px;
+    }
+    .modyfy-booing-request{
+        margin: 0px 5px 0px 5px;
+    }
+    .form-modufy-input label{
+        font-size: 13px;
+    }
+    .modify-request-wrapper-form{
+        margin: 0 auto;
+        padding: 2px;
+    }
+    .submit-modify-btn button{
+        margin: 0 auto;
+    }
+    .form-modufy-input textarea{
+        margin-bottom: 20px;
+    }
+    .modify-div{
+        padding: 5px;
+    }
+    .mody-request-btn{
+        font-size: 14px!important;
+        height: auto;
+        width: 205px!important;
+        height: 65px;
+    }
+    .download-tickket{
+        font-size: 14px !important;
+        height: auto;
+        width: 205px !important;
+        margin-left: 0;
+        height: 65px;
+        margin-top: 20px;
+    }
+    .btn-group-confirm{
+        display:block !important;
+        width:100% !important;
+    }
+    .img-box{
+        width:100%;
+    }
+    .grcode-box-image img{
+        width:50%;
+        margin-left: 85px;
+    }
+    .qr-code-image img{
+        width: 72%;
+        margin-left: 45px;
+    }
+    .row-address-con label{
+        font-size: 16px;
+    }
+    .row-address-con p{
+        font-size: 10px;
+    }
+    .modify-div-wraper p{
+        width: 80%;
+        font-size: 14px;
+    }
+    .title-confirm{
+        font-size: 20px;
+    }
+   
+    
+  }

@@ -1,0 +1,139 @@
+.personal-information {
+    /* margin: 0px 60px 0px 60px; */
+    height: auto;
+    max-width: 1400px;
+    /* width: 100%; */
+    margin: 0px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
+}
+
+.personal-information-wraper {
+    margin: 30px 30px 30px 30px;
+}
+
+.personal-information-wraper h6 {
+    font-size: 30px;
+    color: #35AD0A;
+    font-weight: 600;
+    font-family: 'Outfit';
+
+}
+
+.form-pofifle {
+    margin-top: 20px;
+    /* width: 100%; */
+}
+
+.profile-input input {
+    border: 1px solid #94A3B8;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    background-color: #ffffff !important;
+    
+}
+
+.edit-info-btn {
+    width: 149px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #35AD0A;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Outfit';
+}
+.profile-input label{
+    font-size: 20px;
+    color: #0F172A;
+    font-weight: 600;
+    font-family: 'Outfit';
+
+    padding-bottom: 6px;
+}
+.profile-input select{
+    border: 1px solid #94A3B8;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    background-color: #ffffff !important;
+}
+.pre-btn-profile{
+    width: 215px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #35AD0A;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Outfit';
+}
+.change-password{
+    width: 180px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #35AD0A;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Outfit';
+}
+.two-fac-text{
+    font-size: 22px;
+    color: #1E293B;
+    font-family: 'Outfit';
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.two-fac-btn{
+    width: 300px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #35AD0A;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Outfit';
+}
+.profile-imaeg-div{
+    overflow: hidden;
+    /* width: 100px;
+    height: 100px; */
+}
+@media (min-width: 769px){
+.mobile-proifole{
+    display: none;
+}
+
+}
+@media (min-width: 320px) and (max-width: 768px) {
+.profile-imaeg-div{
+    overflow: hidden;
+    /* width: 100px;
+    height: 100px; */
+    /* background-color: beige; */
+}
+.profile-div{
+    display: none !important;
+}
+.edit-profille-fromn{
+    width: 100%;
+}
+.profile-input label{
+    font-size: 16px;
+    color: #0F172A;
+    font-weight: 600;
+    font-family: 'Outfit';
+
+    padding-bottom: 6px;
+}
+.prefered-lan {
+    width: 100%;
+}
+.mobile-proifole h5{
+    color: #1E293B !important;
+}
+}

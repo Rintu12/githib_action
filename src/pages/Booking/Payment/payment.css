@@ -1,0 +1,214 @@
+.gradient-div-payment {
+
+    height: auto;
+    /* width: 1400px; */
+    position: static;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+ 
+} 
+
+.title-text {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #E2E8F0;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Booking-summery {
+    /* width: 90%; */
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin: 0px 10px 0px 10px; */
+    border-radius: 8px;
+    padding: 10px 13px 10px 13px;
+
+}
+.payment-bottom-text{
+    display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ width: 100%;
+ padding: 10px 0px 10px 0px !important;
+}
+.payment-bottom-text p{
+    font-size: 18px !important;
+    font-weight: 500;
+    font-family: 'Outfit';
+    color: #3E576F !important;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 5px !important;
+}
+.details-payment {
+    padding-top: 100px;
+    /* background-color: aquamarine; */
+}
+
+.booking-wraper p:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #34AD0A;
+}
+
+.Booking-summery {
+    /* margin: 30px; */
+}
+.booking-wraper{
+/* margin: 30px; */
+}
+.row-container p:nth-of-type(1){
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #0F172A;
+}
+.row-container p:nth-of-type(2){
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #3E576F;
+}
+.divider{
+    border: 1px solid #0F172A;
+     margin-top: 40px;
+}
+.card-input input{
+    height: 63px;
+    width: 100%;
+    border: 1px solid #94A3B8;
+    border-radius: 8px;
+    outline: none;
+}
+
+.card-input label{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Outfit';
+    color: #0F172A;
+    padding-top: 10px;
+}
+.add-money-btn button{
+    background-color: #35AD0A;
+    height: 70px;
+    border-radius: 8px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff !important;
+   
+
+}
+.add-money-btn{
+    padding: 10px 13px 10px 13px;
+
+}
+
+
+
+
+/* 
+@media (min-width: 1000px) {
+    .card-input input{
+        height: 45px;
+        width: 100%;
+        border: 1px solid #94A3B8;
+        border-radius: 8px;
+        outline: none;
+    }
+   
+    .add-money-btn button{
+        background-color: #35AD0A;
+        height: 50px;
+        border-radius: 8px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 22px;
+        color: #ffffff !important;
+    }
+    .card-input label{
+        font-size: 17px;
+        font-weight: 500;
+        font-family: 'Outfit';
+        color: #0F172A;
+        padding-top: 10px;
+    }
+
+  }
+   */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+ }
+  
+ 
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+  
+
+ 
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+  }
+  
+
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+  }
+  
+ 
+  
+  @media (min-width: 320px) and (max-width: 480px) ,(max-width: 768px),(max-width: 992px) {
+    .content-wraper{
+        display: block!important;
+    }
+    .card-input input{
+        height: 45px;
+        width: 100%;
+        border: 1px solid #94A3B8;
+        border-radius: 8px;
+        outline: none;
+    }
+   
+    .add-money-btn button{
+        background-color: #35AD0A;
+        height: 50px;
+        border-radius: 8px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 22px;
+        color: #ffffff !important;
+    }
+    .card-input label{
+        font-size: 17px;
+        font-weight: 500;
+        font-family: 'Outfit';
+        color: #0F172A;
+        padding-top: 10px;
+    }
+
+    .row-container p:nth-of-type(1){
+        font-size: 17px;
+        font-weight: 600;
+        font-family: 'Outfit';
+        color: #0F172A;
+    }
+    .row-container p:nth-of-type(2){
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Outfit';
+        color: #3E576F;
+    }
+    .Booking-summery{
+    margin-top: 10px !important;
+    }
+    .gradient-div-payment{
+        padding: 0px 0px !important;
+    }
+  }

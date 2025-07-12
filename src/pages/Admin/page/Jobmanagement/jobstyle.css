@@ -1,0 +1,301 @@
+.job-table th, td{
+    font-family: "Outfit";
+}
+
+.job-table th{
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 500;
+}
+.job-table td{
+    font-size: 18px;
+    color:#0F172A;
+    font-weight: 500;
+}
+
+.job-table td a.btn{
+    background: #35AD0A;
+    text-decoration: none;
+    border:none
+}
+.job-table td a.btn:focus{
+    background: #35AD0A;
+    color:#fff;
+    border-radius:10px;
+}
+
+.job-table table .thead-dark tr th {
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.job-table h2 {
+    background: #E2E8F0;
+    border-radius: 10px;
+    padding: 0px 0px 20px 20px;
+    font-weight: 500;
+    font-size: 28px;
+    font-family: "Roboto";
+}
+
+.job-table td a.btn .btn-primary {
+    width: 100%;
+    background:#35AD0A ;
+    padding: 30px;
+    color:#fff;
+}
+
+
+.btn-section{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.btn-section .btn.btn-primary, 
+.btn-section .btn.btn-secondary,
+.btn-section .btn.btn-success {
+    width:100%;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "Outfit";
+    background:#35AD0A ;
+    border: none;
+}
+
+.btn-section .btn.btn-secondary
+{
+    background:#1E293B ;
+    color:#fff;
+}
+
+.btn-section .btn.btn-success
+{
+    background:#E2E8F0 ;
+    color:#0F172A;
+}
+.job-mange{
+   padding: 20px;
+    box-shadow: 0 0px 0px 0 rgba(172, 170, 170, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+   margin-top: 50px;
+}
+
+
+.job-mange h1{
+    font-family: "Outfit";
+    font-size: 40px;
+    font-weight: 600;
+    color:#35AD0A;
+    
+}
+
+.job-table td .head-sec .heading-1 {
+    font-family: "Roboto";
+    font-size: 22px;
+    color:#0F172A;
+    font-weight: 600;
+    padding: 5px;
+
+} 
+.job-table td .head-sec .heading-2 {
+    font-family: "Outfit";
+    font-size: 20px;
+    color:#35AD0A;
+    font-weight: 600;
+    padding:5px;
+} 
+.job-table td{
+    
+}  
+
+.job-table  td .head-sec{
+    display: flex;
+    }
+    .job-table  td .timezone{
+        display: flex;
+        padding: 5px;
+    }
+    .job-table  td .timezone .date{
+        padding: 10px 10px 10px 0px;
+        color:#28425A;
+    }
+    .job-table  td .timezone .time{
+        padding: 10px;
+        color:#28425A;
+    }
+    .job-table  td .price-icon-sec{
+        display: flex;
+    }
+    .job-table  td .price-icon-sec .price{
+        display: flex;
+        color:#28425A;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 10px 10px 10px 0px;
+        font-family: "Roboto";
+    }
+    .job-table  td .price-icon-sec .icon-sec{
+      
+
+    }
+    .job-table  td .price-icon-sec .icon-sec ul li{
+        display: inline-flex;
+        padding: 5px;
+    }
+    .job-table  td .price-icon-sec .icon-sec ul li a {
+        text-align: center;
+        font-weight: 500;
+        font-size: 12px;
+        color:#FF3B30;
+    }
+    .job-table  td .price-icon-sec .icon-sec ul li a span {
+        display: block;
+       text-align: center;
+    }
+    .job-table td{
+       
+    } 
+
+    .job-table  td .form-sec .heading {
+        font-family: "Outfit";
+        font-size: 22px;
+        color:#0F172A;
+        font-weight: 600;
+    }
+        .job-table  td .form-sec .txt{
+            padding: 10px 10px 10px 0px;
+            color: #28425A;
+        }
+
+        .job-table  td .form-sec{
+            padding: 0;
+        }
+
+        .job-table  table,td{
+            border-collapse: collapse;
+        }
+        .job-table td{
+            border: none !important;
+        }
+        .job-table td .bn-sec{
+            display:flex;
+        }
+        
+        .job-table td .bn-sec a{
+            font-size:14px;
+        }
+
+        .pagination {
+            display: inline-block;
+          }
+          
+          .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s;
+            border: 1px solid #ddd;
+          }
+          
+          .pagination a.active {
+            background-color: #4CAF50;
+            color: rgb(2, 0, 0);
+            border: 1px solid #4CAF50;
+          }
+          
+          .pagination a:hover:not(.active) {background-color: #ddd;}
+
+          .table-filter{
+            background-color: #334155;
+            padding:10px;
+          }
+
+
+
+
+          .table-filter .input-container {
+            display: flex;
+           
+        }
+        
+        ::placeholder {
+          color: #757575;
+          opacity: 1;
+        }
+
+
+          .search-input {
+            background: #334155;
+            color: #212121;
+              vertical-align: middle;
+            font-size: 16px;
+            line-height: 2;
+            padding: 10px 20px;
+            border: 0;
+            outline: none;
+            box-shadow: inset 0 -1px 1px -1px #CCCCCC, inset 0 1px 1px -1px #CCCCCC, inset 1px 0 1px -1px #CCCCCC;
+            border-radius:5px 0px 0px 5px;
+            position: relative;
+            
+          }
+          
+          .search-submit {
+            background:#3AAE49;
+            color: #FFFFFF;
+              vertical-align: middle;
+            padding: 0 20px;
+            border: 0;
+            outline: none;
+            cursor: pointer;
+           
+          }
+          
+          .search-submit:hover {
+            background: #AB47BC;
+          }
+          
+          .search-submit i {
+            font-size: 24px;
+          }
+          
+          .filter-btn{
+            width:100%;
+            background: none;
+            border:1px solid #35AD0A;
+            color:#35AD0A;
+            padding: 10px 20px;
+            vertical-align: middle;
+            font-size: 16px;
+            line-height: 2;
+
+          }
+          
+          button.filter-btn i{
+            color:#35AD0A;  
+          }
+          button. i{
+            color:#35AD0A;  
+          }
+
+          .export{
+            width:100%;
+            background: none;
+            border:1px solid #ffffff;
+            color:#ffffff;
+            padding: 10px 20px;
+            vertical-align: middle;
+            font-size: 16px;
+            line-height: 2;
+
+          }
+          .table-filter{
+            border-radius: 5px;
+          }
+          .table-filter h2{
+            color:#fff;
+            font-family: "outfit";
+            font-weight: 600;
+            font-size: 36px;
+          }

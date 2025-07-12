@@ -1,0 +1,102 @@
+.invoice-page .heading{
+    width:100%;
+}
+
+.txt-width{
+    padding-top:20px;
+}
+.invoice-page .heading h2 {
+    font-family: "Outfit";
+    font-size: 36px;
+    font-weight:600 ;
+    color:#0F172A;
+    
+    width:100%;
+    
+}
+.invoice-page .invoice-txt{
+    color:#0F172A;
+    display:flex;
+    padding: 6px;
+}
+.invoice-page .invoice-txt .id{
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight:500 ;
+    color:#0F172A;
+    padding-right: 15px;
+}
+.invoice-page .invoice-txt .num{
+    font-family: "Outfit";
+    font-size: 16px;
+    font-weight:500 ;
+    color:#0F172A;
+    padding-top: 6px;
+}
+
+.invoice-page .code-text {
+text-align: center;
+font-family: "Outfit";
+    font-size: 16px;
+    font-weight:500 ;
+    color:#0F172A;
+
+}
+.invoice-page .image-box{
+    padding: 20px;
+    margin-top: -50px;;
+}
+.invoice-page .image-box img{
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+}
+.bd-bottom{
+    border-bottom:1px solid #ddd;
+    border-width:70%;
+    padding-bottom: 15px;
+}
+.invoice-page .banner{
+    padding: 20px;
+}
+.invoice-page .banner img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.invoice-page h4{
+    font-family: "Outfit";
+    font-size: 30px;
+    font-weight:500 ;
+    color:#0F172A;
+    padding-top: 20px;
+}
+.dw-btn{
+    background:#3AAE49 ;
+    border:none;
+    padding: 10px 20px 10px 20px;
+    font-family: "Outfit";
+    margin-top: 20px;
+}
+.gray-box{
+    background: #E8EBED;
+    padding: 20px;
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+
+.gray-box .content-box p {
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight:500 ;
+    color:#334155;
+    padding-top: 20px;
+}
+.gray-box .content-box span{
+    color:#3AAE49;
+}
+.gray-box .content-box{
+    margin-top: 30px;
+   
+}
+

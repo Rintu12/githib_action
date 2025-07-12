@@ -1,0 +1,348 @@
+.gardian-div-booking-details {
+
+    height: 1600px;
+    width: 100vw;
+    position: static;
+    background: linear-gradient(to top, #C3C3C3, transparent);
+    margin-top: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.ride-details {
+    margin: 0px 60px 0px 60px;
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 140px;
+
+}
+
+.title-text {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #E2E8F0;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ride-detail-text {
+    font-size: 30px !important;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #34AD0A !important;
+}
+
+.ride-details-wrapper {
+    width: 100%;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+.details-container {
+    width: 55%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.details-container .detail-content{
+    width:100%;
+    padding: 5px;
+}
+
+.details-row p:nth-of-type(1) {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #0F172A;
+    padding-top: 20px;
+}
+
+.details-row p:nth-of-type(2) {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #0F172A;
+    padding-top: 20px;
+}
+
+.details-row span {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Outfit';
+    color: #3E576F;
+    padding-left: 10px;
+}
+
+.price-brekdown {
+    /* height: 350px; */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin: 60px; */
+    margin: 0px 60px 0px 60px;
+
+    overflow: hidden;
+
+}
+
+.price-brek-down-wrapper {
+    width: 90%;
+    margin: 30px;
+    border-bottom: 1px solid #0F172A;
+    /* display: flex; */
+    /* object-fit: contain; */
+
+}
+
+.price-brek-down-wrapper div {
+    padding-top: 30px;
+}
+
+.price-brek-down-wrapper div:nth-of-type(2) {
+    padding-bottom: 30px;
+}
+
+.total-box {
+    width: 90%;
+    margin: 30px;
+}
+
+.price-brek-down-wrapper p:nth-of-type(1) {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #0F172A;
+    /* padding-left: 10px; */
+}
+
+.total-box p:nth-of-type(1) {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #0F172A;
+}
+
+.review-container {
+    margin: 0px 60px 0px 60px;
+    top: 0px !important;
+}
+
+.passenger-details {
+    background-color: #FFFFFF;
+    margin: 20px 60px 0px 60px;
+    border-radius: 10px;
+}
+
+.passenger-wraper {
+    width: 100%;
+  
+    padding: 30px;
+}
+
+.passebger-input {
+    padding-top: 20px;
+}
+
+.passebger-input input {
+    height: 58px;
+    border: 1px solid #94A3B8;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.row-two input {
+    height: 58px;
+    border: 1px solid #94A3B8;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.row-container {
+    padding-top: 20px;
+}
+
+.confirm-btn button {
+    width: 186px;
+    height: 48px;
+    background-color: #35AD0A;
+    border-radius: 8px;
+    color: #E8EBED;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.confirm-btn {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.passebger-input label {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #0F172A;
+}
+
+.row-two label {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #0F172A;
+}
+
+
+@media (min-width: 1281px) {
+    .ride-details{
+        
+    }
+  
+    .ride-details-wrapper img{
+        width:100%;
+        height: auto;
+        max-width: 100%;
+    }
+    .details-container {
+        width:59%;
+        
+    }
+    
+    
+  }
+  
+ 
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .ride-details{
+        
+    }
+  
+    .ride-details-wrapper img{
+        width:100%;
+        height: auto;
+        max-width: 100%;
+    }
+    .details-container {
+        width:59%;
+        padding-right:79px!important;
+    }
+
+    .ride-details-wrapper{
+        margin-top:20px!important;
+    }
+
+
+
+  }
+  
+ 
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .ride-details-wrapper{
+        display: block!important;
+    }
+    .details-row p:nth-of-type(2){
+        padding-top: 20px;
+        
+    }
+    .passenger-wraper{
+        padding: 15px;
+    }
+    .ride-details-wrapper img{
+
+    }
+    
+  }
+  
+
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+   
+    
+  }
+  
+
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .ride-details img{
+        width:100%;
+        height: auto;
+        max-width: 100%;
+    }
+    .ride-details-wrapper{
+        display: block!important;
+    }
+    .details-row p:nth-of-type(2){
+        padding-top: 10px;
+    }
+    .price-brekdown{
+        margin: 5px;
+        padding: 10px;
+
+    }
+    .passenger-details{
+        margin: 5px;
+    }
+    .passenger-wraper{
+        margin:0 auto;
+        padding: 20px;
+    }
+    .review-container{
+        margin: 0px 10px 0px 10px;
+    }
+    .price-brek-down-wrapper{
+        margin:0 auto;
+    }
+    
+   
+    
+  }
+  
+ 
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .ride-details img{
+        width:100%;
+        height: auto;
+        max-width: 100%;
+    }
+    .gardian-div-booking-details{
+        height: 1750px !important;
+    }
+    .ride-details-wrapper{
+        display: block!important;
+    }
+    .details-row p:nth-of-type(2){
+        padding-top: 10px;
+    }
+    .price-brekdown{
+        margin: 5px;
+    }
+    .passenger-details{
+        margin: 5px;
+    }
+    .passenger-wraper{
+        margin:0 auto;
+    }
+    .review-container{
+        margin: 0px 10px 0px 10px;
+    }
+    .price-brek-down-wrapper{
+        margin:0 auto;
+    }
+    
+  }

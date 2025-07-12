@@ -1,0 +1,952 @@
+.gradient-div-details {
+
+    /* height: 2200px; */
+    height: auto;
+    max-width: 1400px !important;
+    width: 100%;
+    margin: 0px auto;
+    position: static;
+    background: linear-gradient(to top, #C3C3C3, transparent);
+    margin-top: 10px;
+    /* margin: 20px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+/* .pl-4, .px-4{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+} */
+.div-two {
+
+    /* height: 1100px; */
+    width: 100vw;
+    position: static;
+    background-color: #FFFFFF;
+}
+
+.content-wraper-details {
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    height: 100vh;
+    top: 100px;
+    /* background-color: #1e7e34; */
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+/* width: 100%; */
+
+.image-container-top {
+    max-height: 647px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 4px;
+    margin: 60px;
+    overflow: hidden;
+    /* overflow: scroll; */
+    /* position: relative; */
+}
+
+.title-text {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #E2E8F0;
+    padding: 0px;
+    margin: 0px;
+}
+.pkg-dl-image{
+
+}
+.pkg-dl-image img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+
+}
+.image-container-top{
+    border-radius:0px;
+    margin-top: 64px;
+}
+
+.ride-details {
+    /* height: 360px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    margin-top: 2px;
+    margin: 5px 60px 5px 60px !important;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    /* left: 0;
+    right: 0; */
+}
+.container-details-feature h6{
+    padding-top: 50px;
+}
+
+.container-details {
+    padding: 30px;
+}
+
+.container-details h6{
+    font-weight: 600;
+    color: #3AAE49 !important;
+    font-size: 40px !important;
+    font-family: 'Outfit';
+    padding-bottom: 5px;
+}
+.container-details-feature {
+    padding: 30px;
+}
+
+.cars-package{
+    margin-top: 50px;
+    max-width: 100%;
+    /* margin: 0px 10px 0px 10px; */
+}
+.container-details-feature h6 {
+    font-weight: 600;
+    color: #35AD0A;
+    font-size: 40px;
+    font-family: 'Outfit';
+    padding-bottom: 5px;
+}
+
+
+.container-details-feature p:nth-of-type(1) {
+    font-weight: 500;
+    color: #3E576F;
+    font-size: 22px;
+    font-family: 'Outfit';
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+
+.container-details-feature p:nth-of-type(2) {
+    font-weight: 600;
+    color: #35AD0A;
+    font-size: 36px;
+    font-family: 'Outfit';
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+.price-details p:nth-of-type(1) {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1E293B;
+    font-family: "Outfit";
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.price-details p:nth-of-type(2) {
+    font-size: 28px;
+    font-weight: 400;
+    color: #1E293B;
+    font-family: "Outfit";
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.price-details p:nth-of-type(3) {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1E293B;
+    font-family: "Outfit";
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.price-details p:nth-of-type(4) {
+    font-size: 28px;
+    font-weight: 400;
+    color: #1E293B;
+    font-family: "Outfit";
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.book-now {
+    width: 310px;
+    height: 70px;
+    background-color: #3AAE49 !important;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    color: #ffffff;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.feature-description {
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    /* margin-top: 2px; */
+    margin: 60px;
+    border-radius: 8px;
+}
+
+.round-right {
+    width: 36px;
+
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #35AD0A;
+    border-radius: 100px;
+}
+
+.desc-text p:nth-of-type(1) {
+    font-size: 22px;
+    font-family: 'Outfit';
+    color: #3E576F;
+    font-weight: 500;
+    padding-left: 10px !important;
+}
+
+.desc-text {
+    margin-top: 20px;
+    align-items: center !important;
+}
+
+.package-car {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.package-car-similar {
+    width: 425px;
+    height: 435px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* margin-top: 40px; */
+}
+
+.package-car-similar img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.package-car-similar p:nth-of-type(1) {
+    font-size: 24px;
+    font-family: 'Outfit';
+    font-weight: 600;
+    color: #0F172A;
+
+}
+
+
+.package-car img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.package-car p:nth-of-type(1) {
+    font-size: 24px;
+    max-width: 100%;
+    /* max-height: 100%; */
+    font-family: 'Outfit';
+    font-weight: 600;
+    color: #0F172A;
+
+}
+
+.review-box {
+    margin: 60px;
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 64px;
+}
+
+/* Responsive Grid Columns */
+@media (min-width: 640px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Grid Item Styling */
+.grid-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.item-header h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.discount-badge {
+    background-color: #e6f4ea;
+    color: #256f38;
+    font-size: 0.875rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* Image */
+.item-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.item-image img {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+}
+
+/* Description */
+.item-description {
+    text-align: center;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+/* Price */
+.item-price {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #256f38;
+}
+
+.per-person {
+    font-size: 0.875rem;
+    color: #999;
+}
+
+.original-price {
+    font-size: 0.875rem;
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+/* Details */
+.item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.item-details div {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+}
+
+/* Buttons */
+.item-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.learn-more {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #256f38;
+    color: #256f38;
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: #e6f4ea;
+}
+
+.book-now {
+    flex: 1;
+    padding: 8px;
+    background-color: #256f38;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.book-now:hover {
+    background-color: #1f5630;
+}
+
+.similar-package-container {
+
+    /* height: 900px; */
+    background-color: #FFFFFF;
+    margin: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /* background: linear-gradient(to top, #C3C3C3, transparent); */
+
+}
+.similar-package-container h5{
+    font-size: 40px !important;
+    font-family: 'Outfit';
+    font-weight: 600;
+    color: #3AAE49 !important;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin: 10px 15px 10px 0px !important; */
+
+}
+.vehicle-card-similar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+    width: 100%;
+    margin: 6px;
+
+}
+.booked-now-similar{
+    padding: 7px 20px 7px 20px;
+    /* width: 200px; */
+    /* height: 48px; */
+ background-color:  #3AAE49;
+  border-radius: 8px;  
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Outfit';
+  color: #E8EBED; 
+}
+.leara-more-similar{
+    padding: 7px 20px 7px 20px;
+    /* width: 200px; */
+    /* height: 48px; */
+    border: 1px solid #3AAE49;
+ background-color:  #ffffff;
+  border-radius: 8px;  
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Outfit';
+  color: #3AAE49; 
+}
+.similar-bottom {
+    width: 100%;
+    height: 330px;
+    background: linear-gradient(to top, #C3C3C3, transparent);
+  margin: 0px;
+  padding: 0px;
+}
+.similar-details-bototm h6{
+
+font-size: 40px;
+color: #0F172A;
+font-weight: 600;
+font-family: 'Outfit';
+padding-bottom: 20px !important;
+}
+.similar-details-bototm p:nth-of-type(1){
+    font-size: 30px !important;
+color: #35AD0A !important;
+font-weight: 500;
+font-family: 'Outfit';
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.similar-details-bototm{
+    margin: 40px;
+}
+.similar-details-bototm button{
+    width: 233px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #35AD0A;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #FFFFFF;
+     font-size: 24px;
+     margin-top: 30px;
+}
+
+
+
+@media (min-width: 1281px) {
+  
+    
+    
+  }
+  
+ 
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .similar-details-bototm h6{
+        line-height: 1.2;
+    }
+    .similar-bottom{
+        height:auto;
+    }
+    
+  }
+  
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .similar-details-bototm h6{
+        line-height: 1.2;
+        font-size: 24px;
+    }
+    .similar-details-bototm p:nth-of-type(1){
+        font-size: 16px!important;
+        padding-top:0px;
+        padding-bottom: 0px;
+    }
+    .similar-bottom{
+        height:auto;
+    }
+   
+    .package-car{
+        height: 165px;
+    }
+    .package-car p:nth-of-type(1){
+        font-size: 14px;
+    }
+    .feature-description {
+        height: 754px;
+    }
+    .price-details p:nth-of-type(2){
+        font-size: 16px;
+    }
+    .price-details p:nth-of-type(1){
+        font-size: 22px;
+    }
+    .price-details p:nth-of-type(3){
+        font-size: 23px;
+    }
+    .price-details p:nth-of-type(4){
+        font-size: 16px;
+    }
+    .round-right{
+        width:21px;
+        height: 21px;
+        padding: 10px;
+    }
+    .round-right i{
+        font-size:12px!important;
+    }
+    .ridenow{
+        font-size: 23px;
+    }
+    .other-review-box{
+        padding: 10px;
+    }
+    .reviewimage img{
+        width:100%;
+    }
+    .review-box-container{
+        padding: 0px 5px 30px 1px;
+    }
+    .review-details-contaainer{
+        padding: 16px 10px 4px 10px;
+    }
+    .similar-bottom img{
+        width:100%;
+    }
+    
+  }
+  
+ 
+  
+  
+  @media (min-width: 512px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .ride-details{
+        margin: 10px!important;
+    }
+    .book-now{
+        width: 100%;
+    }
+    .container-details h6{
+        font-size: 32px!important;
+    }
+    .price-details p:nth-of-type(1){
+        font-size: 14px;
+    }
+   
+    .similar-details-bototm h6{
+        line-height: 1.2;
+        font-size: 24px;
+    }
+    .similar-details-bototm p:nth-of-type(1){
+        font-size: 16px!important;
+        padding-top:0px;
+        padding-bottom: 0px;
+    }
+    .similar-bottom{
+        height:auto;
+    }
+   
+    .package-car{
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .package-car p:nth-of-type(1){
+        font-size: 14px;
+    }
+    .feature-description {
+        height: 754px;
+        margin: 10px;
+    }
+    .price-details p:nth-of-type(2){
+        font-size: 16px;
+    }
+    .price-details p:nth-of-type(1){
+        font-size: 22px;
+    }
+    .price-details p:nth-of-type(3){
+        font-size: 23px;
+    }
+    .price-details p:nth-of-type(4){
+        font-size: 16px;
+    }
+    .round-right{
+        width:21px;
+        height: 21px;
+        padding: 10px;
+    }
+    .round-right i{
+        font-size:12px!important;
+    }
+    .ridenow{
+        font-size: 23px;
+    }
+    .other-review-box{
+        padding: 10px;
+    }
+    .reviewimage img{
+        width:100%;
+    }
+    .review-box-container{
+        padding: 0px 5px 30px 1px;
+    }
+    .review-details-contaainer{
+        padding: 16px 10px 4px 10px;
+    }
+    .similar-bottom img{
+        width:100%;
+    }
+    .container-details-feature h6{
+        font-size: 26px;
+    }
+    .container-details-feature p:nth-of-type(2){
+        font-size: 26px;
+    }
+    .package-car img {
+        width: 100%;
+        height:auto;
+        max-width:100%;
+    }
+    .feature-description{
+        height: auto;
+    }
+    .review-box{
+        margin: 5px;
+    }
+    .reviewimage img{
+        width: 100%!important;
+        height: auto!important;
+        max-width: 100% !important;
+    }
+    .content-wraper p:nth-of-type(1){
+        font-size: 18px!important;
+    }
+    .review-details-contaainer{
+        gap:3px;
+    }
+    .other-review-box{
+        display: block;
+        height: 160px;
+    }
+    .similar-package-container h5{
+        font-size: 24px!important;
+        padding-top: 20px;
+    }
+    .similar-package-container{
+        margin: 5px;
+        /* height: 1750px; */
+    }
+    .content-wraper p:nth-of-type(1){
+        font-size:12px!important;
+    }
+    .price-details p:nth-of-type(3){
+        font-size: 12px;
+    }
+    .package-car img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    .package-car {
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    
+  }
+  
+
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .ride-details{
+        margin: 10px!important;
+    }
+    .book-now{
+        width: 100%;
+    }
+    .container-details h6{
+        font-size: 32px!important;
+    }
+    .price-details p:nth-of-type(1){
+        font-size: 14px;
+    }
+   
+    .similar-details-bototm h6{
+        line-height: 1.2;
+        font-size: 24px;
+    }
+    .similar-details-bototm p:nth-of-type(1){
+        font-size: 16px!important;
+        padding-top:0px;
+        padding-bottom: 0px;
+    }
+    .similar-bottom{
+        height:auto;
+    }
+   
+    .package-car {
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    .package-car p:nth-of-type(1){
+        font-size: 14px;
+    }
+    .feature-description {
+        height: 754px;
+        margin: 10px;
+    }
+    .price-details p:nth-of-type(2){
+        font-size: 12px;
+    }
+    .price-details p:nth-of-type(1){
+        font-size: 12px;
+    }
+    .price-details p:nth-of-type(3){
+        font-size: 12px;
+    }
+    .price-details p:nth-of-type(4){
+        font-size: 12px;
+    }
+    .round-right{
+        width:21px;
+        height: 21px;
+        padding: 10px;
+    }
+    .round-right i{
+        font-size:12px!important;
+    }
+    .ridenow{
+        font-size: 23px;
+    }
+    .other-review-box{
+        padding: 10px;
+    }
+    .reviewimage img{
+        width:100%;
+    }
+    .review-box-container{
+        padding: 0px 5px 30px 1px;
+    }
+    .review-details-contaainer{
+        padding: 16px 10px 4px 10px;
+    }
+    .similar-bottom img{
+        width:100%;
+    }
+    .container-details-feature h6{
+        font-size: 26px;
+    }
+    .container-details-feature p:nth-of-type(2){
+        font-size: 26px;
+    }
+    .package-car img {
+        width: 100%;
+        height:auto;
+        max-width:100%;
+    }
+    .feature-description{
+        height: auto;
+    }
+    .review-box{
+        margin: 5px;
+    }
+    .reviewimage img{
+        width: 100%!important;
+        height: auto!important;
+        max-width: 100% !important;
+    }
+    .content-wraper p:nth-of-type(1){
+        font-size: 18px!important;
+    }
+    .review-details-contaainer{
+        gap:3px;
+    }
+    .other-review-box{
+        display: block;
+        height: 160px;
+    }
+    .similar-package-container h5{
+        font-size: 24px!important;
+        padding-top: 20px;
+    }
+    .similar-package-container{
+        margin: 5px;
+        height: 1750px;
+    }
+    .content-wraper p:nth-of-type(1){
+        font-size:12px!important;
+    }
+    
+    .package-car img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+  }
+  
+ 
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .ride-details{
+        margin: 5px !important; 
+    }
+    .ride-details-car-image{
+        display: none !important;
+    }
+    .container-details h6{
+        font-size: 24px!important;
+    }
+    .price-details p:nth-of-type(1){
+        font-size: 14px;
+    }
+    .price-details p:nth-of-type(2){
+        font-size: 14px;
+    }
+    .price-details p:nth-of-type(3){
+        font-size: 14px;
+    }
+    .price-details p:nth-of-type(4){
+        font-size: 14px;
+    }
+    .book-now{
+        width:100%;
+    }
+    .feature-description{
+        width:100%;
+        margin: 0px;
+        height: 1923px;
+    }
+    .container-details-feature h6{
+        font-size: 32px!important;
+        line-height: 1.8;
+    }
+    
+    .container-details-feature p:nth-of-type(1){
+        font-size:14px;
+    }
+    .round-right{
+        width:21px;
+        height: 21px;
+        padding: 10px;
+    }
+    .round-right i{
+        font-size:12px!important;
+    }
+    .similar-package-container{
+        margin: 0px;
+    }
+    
+    .package-car{
+      
+        margin-bottom: 46px;
+    }
+    .similar-package-container h5{
+        font-size: 23px;
+    }
+    .review-box{
+        margin: 0px;
+    }
+    .similar-package-container h5{
+        font-size: 23px!important;
+        margin-top: 10px;
+    }
+    .similar-bottom{
+        height: 508px;
+    }
+    .similar-details-bototm h6{
+        line-height: 1.1;
+    }
+    /* .cars-package{
+        margin-top: 5px;
+        max-width: 0;
+    } */
+    .price-details{
+        display: block!important;
+
+    }
+    .package-car div{
+        min-height: 200px;
+    }
+
+
+
+    
+  }
+
+
+ 

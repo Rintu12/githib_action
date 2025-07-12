@@ -1,0 +1,77 @@
+.extra-sec h2{
+    color:#35AD0A;
+    font-family: "Outfit";
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 600;
+}
+.extra-sec .offer-txt-box{
+display: flex;
+}
+.extra-sec .offer-txt-box i{
+    padding: 10px;
+    margin-right:5px;
+}
+
+.extra-table{
+ 
+    padding: 20px;
+    box-shadow: 0 0px 0px 0 rgba(172, 170, 170, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+    
+  
+    
+}
+.extra-table table thead.thead-light tr th{
+    background: #E2E8F0!important;
+    padding: 15px 5px 15px 5px;
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border:none;
+}
+.extra-table table tr:last-child{
+    border-bottom: none!important;
+}
+.extra-table table tr td{
+    border-left:none;
+    border-right:none;
+    border-top:none ;
+    padding: 20px;
+    font-family: "Outfit";
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.extra-table td a.btn.btn-primary{
+    background: #3AAE49;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    border:none;
+    font-family: "Outfit";
+    width:100%;
+    
+    }
+    .pagination {
+        display: inline-block;
+        margin: 0 auto;
+      }
+      
+      .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+      }
+      
+      .pagination a.active {
+        background-color: #4CAF50;
+        color: rgb(2, 0, 0);
+        border: 1px solid #4CAF50;
+      }
+      
+      .pagination a:hover:not(.active) {background-color: #ddd;}
